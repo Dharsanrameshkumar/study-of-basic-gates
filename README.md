@@ -68,32 +68,29 @@ Y= A⊕B
 
 ## PROGRAM
 ```
-module ex01(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
+module ex01(a,b,c,d,e,x,y,z);
 input a,b;
-output Y1,Y2,Y3,Y4,Y5,Y6,Y7;
-and(Y1,a,b);
-or(Y2,a,b);
-not(Y3,a);
-xor(Y4,a,b);
-nand(Y5,a,b);
-nor(Y6,a,b);
-xnor(Y7,a,b);
+output c,d,e,x,y,z;
+and(c,a,b);
+or(d,a,b);
+xor(e,a,b);
+nand(x,a,b);
+nor(y,a,b);
+xnor(z,a,b);
 endmodule
 ```
 
 
  
 ## Logic symbol & Truthtable
-![alt text](<truth tbale.png>)
+![alt text](<truth table.jpg>)
 
 ## RTL realization Output: 
 
 ## RTL
-![alt text](RTL.png)
-
+![alt text](<Screenshot (113).png>)
 ## OUTPUT
-![alt text](output.png)
-
+![alt text](<Screenshot (112).png>)
 ## Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
 
